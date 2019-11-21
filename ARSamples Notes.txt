@@ -1,0 +1,30 @@
+AR Samples:
+
+Jitter
+
+
+
+
+AR Furniture:
+Place template
+
+AR Pottery:
+Option to flip 180 vertically 
+(to avoid users trying to view pot from underneath)
+
+Jitter Fix:
+https://forum.unity.com/threads/reducing-jitter-or-jumpiness-of-your-virtual-objects-using-vuforia.456379/
+
+That would be the child, yes. Although, rather than making a child of the ImageTarget, which would still move with jitter, I'd make it an independent GameObject which follows that ImageTarget with interpolation.
+
+The interpolation would be something like:
+
+myPosition = Mathf.SmoothStep(myPosition, imageTargetPosition, strength);
+
+Which IIRC would have to be done for each component of the position's Vector3. Strength would be a float, could be Time.deltaTime * some float to modulate the intensity.
+
+Depending on the strength of the interpolation you would trade off between exact position and smoothness.
+/
+/
+/
+Vector3.SmoothDamp

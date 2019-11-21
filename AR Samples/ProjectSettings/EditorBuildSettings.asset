@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/AR1 PlaneDetection.unity
+  - enabled: 0
+    path: Assets/Scenes/AR PlaneDetection.unity
     guid: 45269c6c3234b54489ae531c1475494f
+  - enabled: 1
+    path: Assets/Scenes/AR RaycastingAR.unity
+    guid: 0f6d9b8a4a320c14a93d1637be247f98
   m_configObjects: {}
