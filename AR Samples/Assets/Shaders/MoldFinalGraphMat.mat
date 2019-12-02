@@ -31,16 +31,42 @@ Material:
     m_Floats:
     - Boolean_62F53789: 1
     - Boolean_8A1BDB27: 1
+    - Boolean_E25AEDE0: 1
+    - Vector1_2240AAB8: 0
     - Vector1_2C24B248: 0
-    - Vector1_34EDFFDC: 0.277
-    - Vector1_3D4BE2BD: 0.748
-    - Vector1_4342A7FF: 0.165
-    - Vector1_4A7A276C: 0.025
+    - Vector1_2E4A2BD8: 0.5
+    - Vector1_34EDFFDC: 0
+    - Vector1_3D4BE2BD: 0.5
+    - Vector1_4342A7FF: 0
+    - Vector1_4A7A276C: 0
+    - Vector1_78F2D640: 0
     - Vector1_942CDAF0: 0
-    - Vector1_ADF09C1D: -1
-    - Vector1_B3B7637D: -0.3
-    - Vector1_BBA3A319: 0
+    - Vector1_ADF09C1D: 0
+    - Vector1_B3B7637D: 0
+    - Vector1_BBA3A319: 0.5
     - Vector1_FC8E23DD: 0.5
+    - Vector1_FED7699E: 0
+    - _Damp1: 0
+    - _Damp2: 0
+    - _Damp3: 0
+    - _Damp4: 0
+    - _Fade1: 0
+    - _Fade2: 0
+    - _Fade3: 0
+    - _Fade4: 0
+    - _Gap1: 0
+    - _Gap2: 0
+    - _Gap3: 0
+    - _Gap4: 0
+    - _Height1: 0.5
+    - _Height2: 0.5
+    - _Height3: 0.5
+    - _Height4: 0.5
+    - _P1: 1
+    - _P2: 1
+    - _P3: 1
+    - _P4: 1
     m_Colors:
-    - Color_1EB7B244: {r: 0.754717, g: 0.50690836, b: 0.40939838, a: 0}
+    - Color_1EB7B244: {r: 1, g: 1, b: 1, a: 0}
     - Vector4_3CE0ABC8: {r: 1, g: 1, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}

@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AR PlaneDetection.unity
     guid: 45269c6c3234b54489ae531c1475494f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR RaycastingAR.unity
     guid: 0f6d9b8a4a320c14a93d1637be247f98
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 597f1934879dfb445bd1fbba0f502393
+  - enabled: 1
+    path: Assets/Scenes/PotteryMoldingTest.unity
+    guid: 0ae763011e177a545bf811ede79be87e
   m_configObjects: {}
